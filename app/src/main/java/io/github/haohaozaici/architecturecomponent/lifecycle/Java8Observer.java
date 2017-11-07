@@ -17,11 +17,14 @@ public class Java8Observer implements DefaultLifecycleObserver {
 
   @Override
   public void onStart(@NonNull LifecycleOwner owner) {
+    //example eventbus
+    //EventBus.getDefault().register(this);
 
   }
 
   @Override
   public void onStop(@NonNull LifecycleOwner owner) {
+    //EventBus.getDefault().unRegister(this);
 
   }
 }

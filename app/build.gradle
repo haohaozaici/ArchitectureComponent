@@ -43,4 +43,7 @@ dependencies {
     implementation 'android.arch.persistence.room:runtime:' + arch
     annotationProcessor 'android.arch.persistence.room:compiler:' + arch
     implementation 'android.arch.persistence.room:rxjava2:' + arch
+
+    implementation 'com.google.code.gson:gson:2.8.2'
+
 }

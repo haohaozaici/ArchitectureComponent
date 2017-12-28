@@ -1,8 +1,6 @@
 package io.github.haohaozaici.architecturecomponent;
 
 import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModel;
-import android.arch.lifecycle.ViewModelProvider;
 import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -31,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     MyObserver myObserver = new MyObserver(this, getLifecycle());
     myObserver.enable();
+
 //    getLifecycle().addObserver(myObserver);
 
   }
